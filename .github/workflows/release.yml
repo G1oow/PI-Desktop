@@ -573,3 +573,4 @@ jobs:
           files: dist/*
           generate_release_notes: true
           prerelease: ${{ contains(github.ref_name, '-') }}
+# (register workflow in the fork for a dispatch-only Windows build)
